@@ -1,0 +1,487 @@
+ 
+ .container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+
+}
+
+.homeBack{
+    background-image: url("../img/white.jpg");
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+/*head*/
+
+
+
+header h1{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+
+.home{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+
+}
+.home img{
+    max-width: 80%;
+  height: auto;
+}
+
+
+/* admin forms*/
+
+.admin ul li .field-style:focus {
+    box-shadow: 0 0 5px #b0cfe0;
+    border: 2px solid #b0cfe0;
+}
+.admin  {
+    max-width: 75%;
+    margin-left: 12.5% auto;
+    margin-right: 12.5% auto;
+    padding: 30px;
+    border-radius: 10px;
+    border: 4px dashed #000000;
+}
+.admin ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.admin ul li{ 
+    display: block;
+    margin-bottom: 10px;
+    min-height: 35px;
+}
+.admin ul li .field-style{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #b0cfe0;
+   /* -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out; */
+}
+.admin ul li .field-split{
+    width: 48%;
+}
+.admin ul li .field-full{
+    width: 100%;
+}
+.admin ul li input.align-left{
+    float: left;
+}
+.admin ul li input.align-right{
+    float: right;
+}
+.admin input{
+    -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.admin ul li input[type="button"]:hover, 
+.admin ul li input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+}
+
+/*nav */
+
+nav{
+    background: #3a4460;
+    padding-top: 1px;
+    text-align: center;
+    color: white;
+    width: 100%;
+
+}
+nav ul{
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+/* make the items float left in a line */
+nav li {
+    display: block;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    width: 30%;
+    text-align: center;
+  top: 50%;
+  transform: translate(100%, 50%)
+
+}
+/*for the individual items of the bar*/
+nav a{
+    color:black;
+    font-size:18px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 25%;
+    text-align: center;
+    margin-right: 25px;
+
+}
+
+/*change nav bar item when hovered over*/
+nav a:hover{
+  color: #000000;
+    font-size:18px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #cee9f4;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: .5s;
+    width:25%;
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns:  400px ;
+    grid-template-rows: 250px 250px 250px 250px;
+    grid-gap: 80px;
+    justify-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    
+  }
+
+  .grid-container > div
+  {
+      padding: 70px;
+     border: #3a4460;
+  border-style: solid;
+  }
+  .item1  {
+      background: lightblue;
+      background-image:url("../img/Software Engineering.png");
+      background-size:100%;
+      background-repeat: no-repeat;
+      
+
+  }
+  .item2{
+      background-color: lightblue;
+      background-image:url("../img/globe.png.jpg");
+      
+      background-size: 100%;
+
+  }
+  .item3{
+      background-color: lightgreen;
+      background-image:url("../img/Algorithms.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+
+  }
+  .item4{
+      background-color: lightcoral;
+
+      background-image:url("../img/globe.png");
+
+      background-size: 100%;
+      background-repeat: no-repeat; 
+  }
+.grid-container p{
+    background:rgba(255, 254, 254, 0.5);
+    border-radius: 10px;
+    padding:5px;
+}
+.grid-container a{
+    background:rgba(255, 254, 254, 0.5);
+    border-radius: 10px;
+    padding:5px;
+}
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even){background-color: #f2f2f2}
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+/* sudent Nav*/
+
+
+
+
+
+
+/*overlays*/
+
+.overlay{
+    width: 100%;
+    height:100%;
+    min-height: 550px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.overlayHead{
+    width: 100%;
+    height:100%;
+    min-height: 140px;
+    max-height: 140px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
+/*login pages*/
+.login {
+    width: 300px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+.login h1{
+    color: white;
+}
+/*making the enter username area clear*/
+.login input{
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    outline: none;
+    background: none;
+    color:white;
+
+}
+/*login button formatting*/
+.login button{
+    background: #3a4460;
+    height: 40px;
+    color: white;
+    outline: none;
+    border: none;
+    display: block;
+    width: 100%;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=date]{
+    width: 155px;
+    padding: 10px 10px;
+    height: 25px;
+
+}
+
+
+
+
+
+
+/*sign up*/
+
+
+.stuRegi{
+  color:white;
+background: rgba(0,0,0,.3);
+    width:50%;
+    margin: auto;
+    padding: 30px;
+
+
+}
+
+.stuReg button{
+    background: #3a4460;
+    height: 40px;
+    color: white;
+    outline: none;
+    border: none;
+    display: block;
+    width: 100%;
+}
+.select{
+    color:blue;
+}
+.stuReg p{
+    justify-content: right;
+}
+.stuReg input{
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    outline: none;
+    background: none;
+    color:white;
+    
+}
+.stuReg input{
+    color: white;
+    background: none;
+    border-color: #3a4460;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+#class { 
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    border-collapse: collapse; 
+    width: 100%; 
+    
+    
+}
+
+#class td, #class th { 
+    border: 1px solid #ddd;
+    padding: 8px; 
+    height: 85px;
+    
+}
+
+#class th { 
+    padding-top:8px;
+    padding-bottom:8px;
+    text-align: left;
+    background: #3a4460;
+    color: white; 
+    
+}
+/*student pages*/
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+footer {
+    height: 30%;
+    background-color: #3a4460;
+    padding: 0px;
+    bottom: 0px;
+    outline: none;
+    color: white;
+    width: 100%;
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px){
+  nav li {
+      display: inline;
+      margin-left: inherit;
+      margin-right: inherit;
+      
+  }
+  /*for the individual items of the bar*/
+  nav a{
+      color:black;
+
+      font-size:18px;
+      padding-right: 50px;
+      padding-left: 50px;
+      text-decoration: none;
+      border-radius: 20px;
+      background-color: white;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      width: 25%;
+    }
+
+    .grid-container {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color: black;
+        font:bold;
+        font-size: 20px;
+        text-align: center; 
+        display: grid;
+        grid-template-columns:  400px 400px ;
+        grid-template-rows: 250px 250px;
+        grid-gap:80px;
+        justify-items: center;
+        justify-content: space-evenly;
+        margin-top: 100px;
+        text-decoration: none;
+        
+    } 
+}  
